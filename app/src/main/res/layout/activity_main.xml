@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="@color/colorPrimary">
+
+    <com.example.appsensoresandroid.Thermometer
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/thermometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:innerColor="@color/innerColor"
+        app:middleColor="@color/middleColor"
+        app:outerColor="@color/outerColor"
+        app:radius="60dp"/>
+
+</RelativeLayout>
